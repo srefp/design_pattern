@@ -1,0 +1,611 @@
+@startuml
+
+title __DESIGN_PATTERN's Class Diagram__\n
+
+  namespace com.atguigu.principle.composite {
+    class com.atguigu.principle.composite.A {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.composite {
+    class com.atguigu.principle.composite.B {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.composite {
+    namespace improve_aggregation {
+      class com.atguigu.principle.composite.improve_aggregation.A {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.composite {
+    namespace improve_aggregation {
+      class com.atguigu.principle.composite.improve_aggregation.B {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.composite {
+    namespace improve_composition {
+      class com.atguigu.principle.composite.improve_composition.A {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.composite {
+    namespace improve_composition {
+      class com.atguigu.principle.composite.improve_composition.B {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.composite {
+    namespace improve_dependency {
+      class com.atguigu.principle.composite.improve_dependency.A {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.composite {
+    namespace improve_dependency {
+      class com.atguigu.principle.composite.improve_dependency.B {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.demeter {
+    class com.atguigu.principle.demeter.CollegeEmployee {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.demeter {
+    class com.atguigu.principle.demeter.CollegeManager {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.demeter {
+    class com.atguigu.principle.demeter.Demeter1 {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.demeter {
+    class com.atguigu.principle.demeter.Employee {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.demeter {
+    class com.atguigu.principle.demeter.SchoolManager {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.demeter {
+    namespace improve {
+      class com.atguigu.principle.demeter.improve.CollegeEmployee {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.demeter {
+    namespace improve {
+      class com.atguigu.principle.demeter.improve.CollegeManager {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.demeter {
+    namespace improve {
+      class com.atguigu.principle.demeter.improve.Demeter1 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.demeter {
+    namespace improve {
+      class com.atguigu.principle.demeter.improve.Employee {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.demeter {
+    namespace improve {
+      class com.atguigu.principle.demeter.improve.SchoolManager {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    class com.atguigu.principle.inversion.DependencyInversion {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    class com.atguigu.principle.inversion.Email {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    class com.atguigu.principle.inversion.Person {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    namespace improve {
+      class com.atguigu.principle.inversion.improve.ChangHong {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    namespace improve {
+      class com.atguigu.principle.inversion.improve.DependencyInversion {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    namespace improve {
+      class com.atguigu.principle.inversion.improve.DependencyPass {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    namespace improve {
+      class com.atguigu.principle.inversion.improve.Email {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    namespace improve {
+      interface com.atguigu.principle.inversion.improve.IOpenAndClose {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    namespace improve {
+      interface com.atguigu.principle.inversion.improve.IReceiver {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    namespace improve {
+      interface com.atguigu.principle.inversion.improve.ITV {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    namespace improve {
+      class com.atguigu.principle.inversion.improve.OpenAndClose {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    namespace improve {
+      class com.atguigu.principle.inversion.improve.Person {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.inversion {
+    namespace improve {
+      class com.atguigu.principle.inversion.improve.WeiXin {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.liskov {
+    class com.atguigu.principle.liskov.A {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.liskov {
+    class com.atguigu.principle.liskov.B {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.liskov {
+    class com.atguigu.principle.liskov.Base {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.liskov {
+    class com.atguigu.principle.liskov.Liskov {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    class com.atguigu.principle.ocp.Circle {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    class com.atguigu.principle.ocp.GraphicEditor {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    class com.atguigu.principle.ocp.Ocp {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    class com.atguigu.principle.ocp.Rectangle {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    class com.atguigu.principle.ocp.Shape {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    class com.atguigu.principle.ocp.Triangle {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    namespace improve {
+      class com.atguigu.principle.ocp.improve.Circle {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    namespace improve {
+      class com.atguigu.principle.ocp.improve.GraphicEditor {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    namespace improve {
+      class com.atguigu.principle.ocp.improve.Ocp {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    namespace improve {
+      class com.atguigu.principle.ocp.improve.OtherGraphic {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    namespace improve {
+      class com.atguigu.principle.ocp.improve.Rectangle {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    namespace improve {
+      abstract class com.atguigu.principle.ocp.improve.Shape {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.ocp {
+    namespace improve {
+      class com.atguigu.principle.ocp.improve.Triangle {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    class com.atguigu.principle.segregation.A {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    class com.atguigu.principle.segregation.B {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    class com.atguigu.principle.segregation.C {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    class com.atguigu.principle.segregation.D {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    interface com.atguigu.principle.segregation.Interface1 {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    class com.atguigu.principle.segregation.Segregation1 {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    namespace improve {
+      class com.atguigu.principle.segregation.improve.A {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    namespace improve {
+      class com.atguigu.principle.segregation.improve.B {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    namespace improve {
+      class com.atguigu.principle.segregation.improve.C {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    namespace improve {
+      class com.atguigu.principle.segregation.improve.D {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    namespace improve {
+      interface com.atguigu.principle.segregation.improve.Interface1 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    namespace improve {
+      interface com.atguigu.principle.segregation.improve.Interface2 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    namespace improve {
+      interface com.atguigu.principle.segregation.improve.Interface3 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.segregation {
+    namespace improve {
+      class com.atguigu.principle.segregation.improve.Segregation1 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.principle.single_responsibility {
+    class com.atguigu.principle.single_responsibility.AirVehicle {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.single_responsibility {
+    class com.atguigu.principle.single_responsibility.RoadVehicle {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.single_responsibility {
+    class com.atguigu.principle.single_responsibility.SingleResponsibility1 {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.single_responsibility {
+    class com.atguigu.principle.single_responsibility.SingleResponsibility2 {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.single_responsibility {
+    class com.atguigu.principle.single_responsibility.SingleResponsibility3 {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.single_responsibility {
+    class com.atguigu.principle.single_responsibility.Vehicle {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.single_responsibility {
+    class com.atguigu.principle.single_responsibility.Vehicle2 {
+    }
+  }
+  
+
+  namespace com.atguigu.principle.single_responsibility {
+    class com.atguigu.principle.single_responsibility.WaterVehicle {
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    class com.atguigu.uml.Person {
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace dependence {
+      class com.atguigu.uml.dependence.Department {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace dependence {
+      class com.atguigu.uml.dependence.IDCard {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace dependence {
+      class com.atguigu.uml.dependence.Person {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace dependence {
+      class com.atguigu.uml.dependence.PersonDao {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace dependence {
+      class com.atguigu.uml.dependence.PersonServiceBean {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace generalization {
+      abstract class com.atguigu.uml.generalization.DaoSupport {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace generalization {
+      class com.atguigu.uml.generalization.PersonServiceBean {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace implementation {
+      interface com.atguigu.uml.implementation.PersonService {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace implementation {
+      class com.atguigu.uml.implementation.PersonServiceBean {
+      }
+    }
+  }
+  
+
+  com.atguigu.principle.composite.B -up-|> com.atguigu.principle.composite.A
+  com.atguigu.principle.composite.improve_aggregation.B o-- com.atguigu.principle.composite.improve_aggregation.A : a
+  com.atguigu.principle.composite.improve_composition.B o-- com.atguigu.principle.composite.improve_composition.A : a
+  com.atguigu.principle.inversion.improve.ChangHong .up.|> com.atguigu.principle.inversion.improve.ITV
+  com.atguigu.principle.inversion.improve.Email .up.|> com.atguigu.principle.inversion.improve.IReceiver
+  com.atguigu.principle.inversion.improve.OpenAndClose .up.|> com.atguigu.principle.inversion.improve.IOpenAndClose
+  com.atguigu.principle.inversion.improve.OpenAndClose o-- com.atguigu.principle.inversion.improve.ITV : tv
+  com.atguigu.principle.inversion.improve.WeiXin .up.|> com.atguigu.principle.inversion.improve.IReceiver
+  com.atguigu.principle.liskov.A -up-|> com.atguigu.principle.liskov.Base
+  com.atguigu.principle.liskov.B -up-|> com.atguigu.principle.liskov.Base
+  com.atguigu.principle.liskov.B o-- com.atguigu.principle.liskov.A : a
+  com.atguigu.principle.ocp.Circle -up-|> com.atguigu.principle.ocp.Shape
+  com.atguigu.principle.ocp.Rectangle -up-|> com.atguigu.principle.ocp.Shape
+  com.atguigu.principle.ocp.Triangle -up-|> com.atguigu.principle.ocp.Shape
+  com.atguigu.principle.ocp.improve.Circle -up-|> com.atguigu.principle.ocp.improve.Shape
+  com.atguigu.principle.ocp.improve.OtherGraphic -up-|> com.atguigu.principle.ocp.improve.Shape
+  com.atguigu.principle.ocp.improve.Rectangle -up-|> com.atguigu.principle.ocp.improve.Shape
+  com.atguigu.principle.ocp.improve.Triangle -up-|> com.atguigu.principle.ocp.improve.Shape
+  com.atguigu.principle.segregation.B .up.|> com.atguigu.principle.segregation.Interface1
+  com.atguigu.principle.segregation.D .up.|> com.atguigu.principle.segregation.Interface1
+  com.atguigu.principle.segregation.improve.B .up.|> com.atguigu.principle.segregation.improve.Interface1
+  com.atguigu.principle.segregation.improve.B .up.|> com.atguigu.principle.segregation.improve.Interface2
+  com.atguigu.principle.segregation.improve.D .up.|> com.atguigu.principle.segregation.improve.Interface1
+  com.atguigu.principle.segregation.improve.D .up.|> com.atguigu.principle.segregation.improve.Interface3
+  com.atguigu.uml.dependence.PersonServiceBean o-- com.atguigu.uml.dependence.PersonDao : personDao
+  com.atguigu.uml.generalization.PersonServiceBean -up-|> com.atguigu.uml.generalization.DaoSupport
+  com.atguigu.uml.implementation.PersonServiceBean .up.|> com.atguigu.uml.implementation.PersonService
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
