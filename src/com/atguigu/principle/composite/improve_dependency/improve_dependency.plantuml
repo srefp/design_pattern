@@ -9,15 +9,18 @@ title __IMPROVE_DEPENDENCY's Class Diagram__\n
           + operation2()
           + operation3()
       }
+    }
+  }
+  
 
+  namespace com.atguigu.principle.composite {
+    namespace improve_dependency {
       class com.atguigu.principle.composite.improve_dependency.B {
           + depends()
       }
     }
   }
   
-
-  com.atguigu.principle.composite.improve_dependency.B --> com.atguigu.principle.composite.improve_dependency.A : a
 
 
 

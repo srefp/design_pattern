@@ -9,7 +9,12 @@ title __IMPROVE_COMPOSITION's Class Diagram__\n
           + operation2()
           + operation3()
       }
+    }
+  }
+  
 
+  namespace com.atguigu.principle.composite {
+    namespace improve_composition {
       class com.atguigu.principle.composite.improve_composition.B {
           + depends()
       }
@@ -17,7 +22,7 @@ title __IMPROVE_COMPOSITION's Class Diagram__\n
   }
   
 
-  com.atguigu.principle.composite.improve_composition.B *-- com.atguigu.principle.composite.improve_composition.A : a
+  com.atguigu.principle.composite.improve_composition.B o-- com.atguigu.principle.composite.improve_composition.A : a
 
 
 right footer

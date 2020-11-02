@@ -9,7 +9,12 @@ title __IMPROVE_AGGREGATION's Class Diagram__\n
           + operation2()
           + operation3()
       }
+    }
+  }
+  
 
+  namespace com.atguigu.principle.composite {
+    namespace improve_aggregation {
       class com.atguigu.principle.composite.improve_aggregation.B {
           + B()
           + depends()

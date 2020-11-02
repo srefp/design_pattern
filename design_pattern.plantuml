@@ -2,6 +2,528 @@
 
 title __DESIGN_PATTERN's Class Diagram__\n
 
+  namespace com.atguigu.adapter.classadapter {
+    class com.atguigu.adapter.classadapter.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.classadapter {
+    interface com.atguigu.adapter.classadapter.IVoltage5V {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.classadapter {
+    class com.atguigu.adapter.classadapter.Phone {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.classadapter {
+    class com.atguigu.adapter.classadapter.Voltage220V {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.classadapter {
+    class com.atguigu.adapter.classadapter.VoltageAdapter {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.interfaceadapter {
+    abstract class com.atguigu.adapter.interfaceadapter.AbsAdapter {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.interfaceadapter {
+    class com.atguigu.adapter.interfaceadapter.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.interfaceadapter {
+    interface com.atguigu.adapter.interfaceadapter.Interface4 {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.objectadapter {
+    class com.atguigu.adapter.objectadapter.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.objectadapter {
+    interface com.atguigu.adapter.objectadapter.IVoltage5V {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.objectadapter {
+    class com.atguigu.adapter.objectadapter.Phone {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.objectadapter {
+    class com.atguigu.adapter.objectadapter.Voltage220V {
+    }
+  }
+  
+
+  namespace com.atguigu.adapter.objectadapter {
+    class com.atguigu.adapter.objectadapter.VoltageAdapter {
+    }
+  }
+  
+
+  namespace com.atguigu.bridge {
+    interface com.atguigu.bridge.Brand {
+    }
+  }
+  
+
+  namespace com.atguigu.bridge {
+    class com.atguigu.bridge.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.bridge {
+    class com.atguigu.bridge.FoldedPhone {
+    }
+  }
+  
+
+  namespace com.atguigu.bridge {
+    abstract class com.atguigu.bridge.Phone {
+    }
+  }
+  
+
+  namespace com.atguigu.bridge {
+    class com.atguigu.bridge.UpRightPhone {
+    }
+  }
+  
+
+  namespace com.atguigu.bridge {
+    class com.atguigu.bridge.Vivo {
+    }
+  }
+  
+
+  namespace com.atguigu.bridge {
+    class com.atguigu.bridge.XiaoMi {
+    }
+  }
+  
+
+  namespace com.atguigu.builder {
+    abstract class com.atguigu.builder.AbstractHouse {
+    }
+  }
+  
+
+  namespace com.atguigu.builder {
+    class com.atguigu.builder.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.builder {
+    class com.atguigu.builder.CommonHouse {
+    }
+  }
+  
+
+  namespace com.atguigu.builder {
+    class com.atguigu.builder.HighBuilding {
+    }
+  }
+  
+
+  namespace com.atguigu.builder {
+    namespace improve {
+      class com.atguigu.builder.improve.Client {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.builder {
+    namespace improve {
+      class com.atguigu.builder.improve.CommonHouse {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.builder {
+    namespace improve {
+      class com.atguigu.builder.improve.HighBuilding {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.builder {
+    namespace improve {
+      class com.atguigu.builder.improve.House {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.builder {
+    namespace improve {
+      abstract class com.atguigu.builder.improve.HouseBuilder {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.builder {
+    namespace improve {
+      class com.atguigu.builder.improve.HouseDirector {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.composite {
+    class com.atguigu.composite.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.composite {
+    class com.atguigu.composite.College {
+    }
+  }
+  
+
+  namespace com.atguigu.composite {
+    class com.atguigu.composite.Department {
+    }
+  }
+  
+
+  namespace com.atguigu.composite {
+    abstract class com.atguigu.composite.OrganizationComponent {
+    }
+  }
+  
+
+  namespace com.atguigu.composite {
+    class com.atguigu.composite.University {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    class com.atguigu.decorator.Chocolate {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    class com.atguigu.decorator.Coffee {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    class com.atguigu.decorator.CoffeeBar {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    class com.atguigu.decorator.DeCaf {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    class com.atguigu.decorator.Decorator {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    abstract class com.atguigu.decorator.Drink {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    class com.atguigu.decorator.Espresso {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    class com.atguigu.decorator.LongBlack {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    class com.atguigu.decorator.Milk {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    class com.atguigu.decorator.ShortBlack {
+    }
+  }
+  
+
+  namespace com.atguigu.decorator {
+    class com.atguigu.decorator.Soy {
+    }
+  }
+  
+
+  namespace com.atguigu.facade {
+    class com.atguigu.facade.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.facade {
+    class com.atguigu.facade.DVDPlayer {
+    }
+  }
+  
+
+  namespace com.atguigu.facade {
+    class com.atguigu.facade.HomeTheaterFacade {
+    }
+  }
+  
+
+  namespace com.atguigu.facade {
+    class com.atguigu.facade.Popcorn {
+    }
+  }
+  
+
+  namespace com.atguigu.facade {
+    class com.atguigu.facade.Projector {
+    }
+  }
+  
+
+  namespace com.atguigu.facade {
+    class com.atguigu.facade.Screen {
+    }
+  }
+  
+
+  namespace com.atguigu.facade {
+    class com.atguigu.facade.Stereo {
+    }
+  }
+  
+
+  namespace com.atguigu.facade {
+    class com.atguigu.facade.TheaterLight {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.absfactory.pizzastore.order {
+    interface com.atguigu.factory.absfactory.pizzastore.order.AbsFactory {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.absfactory.pizzastore.order {
+    class com.atguigu.factory.absfactory.pizzastore.order.BJFactory {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.absfactory.pizzastore.order {
+    class com.atguigu.factory.absfactory.pizzastore.order.LDFactory {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.absfactory.pizzastore.order {
+    class com.atguigu.factory.absfactory.pizzastore.order.OrderPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.absfactory.pizzastore.order {
+    class com.atguigu.factory.absfactory.pizzastore.order.PizzaStore {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.absfactory.pizzastore.pizza {
+    class com.atguigu.factory.absfactory.pizzastore.pizza.BJCheesePizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.absfactory.pizzastore.pizza {
+    class com.atguigu.factory.absfactory.pizzastore.pizza.BJPepperPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.absfactory.pizzastore.pizza {
+    class com.atguigu.factory.absfactory.pizzastore.pizza.LDCheesePizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.absfactory.pizzastore.pizza {
+    class com.atguigu.factory.absfactory.pizzastore.pizza.LDPepperPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.absfactory.pizzastore.pizza {
+    abstract class com.atguigu.factory.absfactory.pizzastore.pizza.Pizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.factorymethod.pizzastore.pizza.order {
+    class com.atguigu.factory.factorymethod.pizzastore.pizza.order.BJOrderPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.factorymethod.pizzastore.pizza.order {
+    class com.atguigu.factory.factorymethod.pizzastore.pizza.order.LDOrderPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.factorymethod.pizzastore.pizza.order {
+    abstract class com.atguigu.factory.factorymethod.pizzastore.pizza.order.OrderPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.factorymethod.pizzastore.pizza.order {
+    class com.atguigu.factory.factorymethod.pizzastore.pizza.order.PizzaStore {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.factorymethod.pizzastore.pizza.pizza {
+    class com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.BJCheesePizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.factorymethod.pizzastore.pizza.pizza {
+    class com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.BJPepperPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.factorymethod.pizzastore.pizza.pizza {
+    class com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.LDCheesePizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.factorymethod.pizzastore.pizza.pizza {
+    class com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.LDPepperPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.factorymethod.pizzastore.pizza.pizza {
+    abstract class com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.Pizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.simplefactory.pizzastore.order {
+    class com.atguigu.factory.simplefactory.pizzastore.order.OrderPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.simplefactory.pizzastore.order {
+    class com.atguigu.factory.simplefactory.pizzastore.order.PizzaStore {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.simplefactory.pizzastore.order {
+    class com.atguigu.factory.simplefactory.pizzastore.order.SimpleFactory {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.simplefactory.pizzastore.pizza {
+    class com.atguigu.factory.simplefactory.pizzastore.pizza.CheesePizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.simplefactory.pizzastore.pizza {
+    class com.atguigu.factory.simplefactory.pizzastore.pizza.GreekPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.simplefactory.pizzastore.pizza {
+    class com.atguigu.factory.simplefactory.pizzastore.pizza.PepperPizza {
+    }
+  }
+  
+
+  namespace com.atguigu.factory.simplefactory.pizzastore.pizza {
+    abstract class com.atguigu.factory.simplefactory.pizzastore.pizza.Pizza {
+    }
+  }
+  
+
+  namespace com.atguigu.flyweight {
+    class com.atguigu.flyweight.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.flyweight {
+    class com.atguigu.flyweight.ConcreteWebSite {
+    }
+  }
+  
+
+  namespace com.atguigu.flyweight {
+    class com.atguigu.flyweight.User {
+    }
+  }
+  
+
+  namespace com.atguigu.flyweight {
+    abstract class com.atguigu.flyweight.WebSite {
+    }
+  }
+  
+
+  namespace com.atguigu.flyweight {
+    class com.atguigu.flyweight.WebSiteFactory {
+    }
+  }
+  
+
   namespace com.atguigu.principle.composite {
     class com.atguigu.principle.composite.A {
     }
@@ -494,8 +1016,510 @@ title __DESIGN_PATTERN's Class Diagram__\n
   }
   
 
+  namespace com.atguigu.prototype {
+    class com.atguigu.prototype.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.prototype {
+    class com.atguigu.prototype.Sheep {
+    }
+  }
+  
+
+  namespace com.atguigu.prototype {
+    namespace deepclone {
+      class com.atguigu.prototype.deepclone.Client {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.prototype {
+    namespace deepclone {
+      class com.atguigu.prototype.deepclone.DeepCloneableTarget {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.prototype {
+    namespace deepclone {
+      class com.atguigu.prototype.deepclone.DeepProtoType {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.prototype {
+    namespace improve {
+      class com.atguigu.prototype.improve.Client {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.prototype {
+    namespace improve {
+      class com.atguigu.prototype.improve.Sheep {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.cglib {
+    class com.atguigu.proxy.cglib.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.cglib {
+    class com.atguigu.proxy.cglib.ProxyFactory {
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.cglib {
+    class com.atguigu.proxy.cglib.TeacherDao {
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.dynamic {
+    class com.atguigu.proxy.dynamic.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.dynamic {
+    interface com.atguigu.proxy.dynamic.ITeacherDao {
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.dynamic {
+    class com.atguigu.proxy.dynamic.ProxyFactory {
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.dynamic {
+    class com.atguigu.proxy.dynamic.TeacherDao {
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.staticproxy {
+    class com.atguigu.proxy.staticproxy.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.staticproxy {
+    interface com.atguigu.proxy.staticproxy.ITeacherDao {
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.staticproxy {
+    class com.atguigu.proxy.staticproxy.TeacherDao {
+    }
+  }
+  
+
+  namespace com.atguigu.proxy.staticproxy {
+    class com.atguigu.proxy.staticproxy.TeacherDaoProxy {
+    }
+  }
+  
+
+  namespace com.atguigu.responsibilitychain {
+    abstract class com.atguigu.responsibilitychain.Approver {
+    }
+  }
+  
+
+  namespace com.atguigu.responsibilitychain {
+    class com.atguigu.responsibilitychain.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.responsibilitychain {
+    class com.atguigu.responsibilitychain.CollegeApprover {
+    }
+  }
+  
+
+  namespace com.atguigu.responsibilitychain {
+    class com.atguigu.responsibilitychain.DepartmentApprover {
+    }
+  }
+  
+
+  namespace com.atguigu.responsibilitychain {
+    class com.atguigu.responsibilitychain.PurchaseRequest {
+    }
+  }
+  
+
+  namespace com.atguigu.responsibilitychain {
+    class com.atguigu.responsibilitychain.SchoolMasterApprover {
+    }
+  }
+  
+
+  namespace com.atguigu.responsibilitychain {
+    class com.atguigu.responsibilitychain.ViceSchoolMasterApprover {
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    class com.atguigu.singleton.Test {
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type1 {
+      class com.atguigu.singleton.type1.Singleton {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type1 {
+      class com.atguigu.singleton.type1.SingletonTest01 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type2 {
+      class com.atguigu.singleton.type2.Singleton {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type2 {
+      class com.atguigu.singleton.type2.SingletonTest02 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type3 {
+      class com.atguigu.singleton.type3.Singleton {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type3 {
+      class com.atguigu.singleton.type3.SingletonTest03 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type4 {
+      class com.atguigu.singleton.type4.Singleton {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type4 {
+      class com.atguigu.singleton.type4.SingletonTest04 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type6 {
+      class com.atguigu.singleton.type6.Singleton {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type6 {
+      class com.atguigu.singleton.type6.SingletonTest06 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type7 {
+      class com.atguigu.singleton.type7.Singleton {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type7 {
+      class com.atguigu.singleton.type7.SingletonTest07 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type8 {
+      enum Singleton {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.singleton {
+    namespace type8 {
+      class com.atguigu.singleton.type8.SingletonTest08 {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    abstract class com.atguigu.strategy.Duck {
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    class com.atguigu.strategy.PekingDuck {
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    class com.atguigu.strategy.ToyDuck {
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    class com.atguigu.strategy.WildDuck {
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      class com.atguigu.strategy.improve.BadFlyBehavior {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      class com.atguigu.strategy.improve.Client {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      abstract class com.atguigu.strategy.improve.Duck {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      interface com.atguigu.strategy.improve.FlyBehavior {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      class com.atguigu.strategy.improve.GaGaQuackBehavior {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      class com.atguigu.strategy.improve.GeGeQuackBehavior {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      class com.atguigu.strategy.improve.GoodFlyBehavior {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      class com.atguigu.strategy.improve.NoFlyBehavior {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      class com.atguigu.strategy.improve.NoQuackBehavior {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      class com.atguigu.strategy.improve.PekingDuck {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      interface com.atguigu.strategy.improve.QuackBehavior {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      class com.atguigu.strategy.improve.ToyDuck {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.strategy {
+    namespace improve {
+      class com.atguigu.strategy.improve.WildDuck {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.template {
+    class com.atguigu.template.Client {
+    }
+  }
+  
+
+  namespace com.atguigu.template {
+    class com.atguigu.template.PeanutSoyaMilk {
+    }
+  }
+  
+
+  namespace com.atguigu.template {
+    class com.atguigu.template.RedBeanSoyaMilk {
+    }
+  }
+  
+
+  namespace com.atguigu.template {
+    abstract class com.atguigu.template.SoyaMilk {
+    }
+  }
+  
+
   namespace com.atguigu.uml {
     class com.atguigu.uml.Person {
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace aggregation {
+      class com.atguigu.uml.aggregation.Computer {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace aggregation {
+      class com.atguigu.uml.aggregation.Moniter {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace aggregation {
+      class com.atguigu.uml.aggregation.Mouse {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace composition {
+      class com.atguigu.uml.composition.Computer {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace composition {
+      class com.atguigu.uml.composition.Head {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace composition {
+      class com.atguigu.uml.composition.IDCard {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace composition {
+      class com.atguigu.uml.composition.Moniter {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace composition {
+      class com.atguigu.uml.composition.Mouse {
+      }
+    }
+  }
+  
+
+  namespace com.atguigu.uml {
+    namespace composition {
+      class com.atguigu.uml.composition.Person {
+      }
     }
   }
   
@@ -572,6 +1596,185 @@ title __DESIGN_PATTERN's Class Diagram__\n
   }
   
 
+  namespace com.lkj.common {
+    class com.lkj.common.Constant {
+    }
+  }
+  
+
+  namespace com.lkj.common {
+    interface com.lkj.common.DrawSelf {
+    }
+  }
+  
+
+  namespace com.lkj.common {
+    class com.lkj.common.Main {
+    }
+  }
+  
+
+  namespace com.lkj.prototype {
+    class com.lkj.prototype.Circle {
+    }
+  }
+  
+
+  namespace com.lkj.prototype {
+    class com.lkj.prototype.PrototypeDemo {
+    }
+  }
+  
+
+  namespace com.lkj.prototype {
+    class com.lkj.prototype.PrototypePatternDemo {
+    }
+  }
+  
+
+  namespace com.lkj.prototype {
+    class com.lkj.prototype.Rectangle {
+    }
+  }
+  
+
+  namespace com.lkj.prototype {
+    abstract class com.lkj.prototype.Shape {
+    }
+  }
+  
+
+  namespace com.lkj.prototype {
+    class com.lkj.prototype.ShapeCache {
+    }
+  }
+  
+
+  namespace com.lkj.prototype {
+    class com.lkj.prototype.Square {
+    }
+  }
+  
+
+  namespace com.other.builder {
+    class com.other.builder.BuilderDemo {
+    }
+  }
+  
+
+  namespace com.other.builder {
+    class com.other.builder.Computer {
+    }
+  }
+  
+
+  namespace com.other.builder {
+    interface com.other.builder.ComputerBuilder {
+    }
+  }
+  
+
+  namespace com.other.builder {
+    class com.other.builder.ComputerConcreteBuilder {
+    }
+  }
+  
+
+  namespace com.other.builder {
+    class com.other.builder.ComputerDirector {
+    }
+  }
+  
+
+  namespace com.other.singleton {
+    enum EnumSingleton {
+    }
+  }
+  
+
+  namespace com.other.singleton {
+    class com.other.singleton.HungrySingleton {
+    }
+  }
+  
+
+  namespace com.other.singleton {
+    class com.other.singleton.LazySingleton {
+    }
+  }
+  
+
+  namespace com.other.singleton {
+    class com.other.singleton.Lock2Singleton {
+    }
+  }
+  
+
+  namespace com.other.singleton {
+    class com.other.singleton.Main {
+    }
+  }
+  
+
+  namespace com.other.singleton {
+    class com.other.singleton.Singleton {
+    }
+  }
+  
+
+  com.atguigu.adapter.classadapter.VoltageAdapter .up.|> com.atguigu.adapter.classadapter.IVoltage5V
+  com.atguigu.adapter.classadapter.VoltageAdapter -up-|> com.atguigu.adapter.classadapter.Voltage220V
+  com.atguigu.adapter.interfaceadapter.AbsAdapter .up.|> com.atguigu.adapter.interfaceadapter.Interface4
+  com.atguigu.adapter.objectadapter.VoltageAdapter .up.|> com.atguigu.adapter.objectadapter.IVoltage5V
+  com.atguigu.adapter.objectadapter.VoltageAdapter o-- com.atguigu.adapter.objectadapter.Voltage220V : voltage220V
+  com.atguigu.bridge.FoldedPhone -up-|> com.atguigu.bridge.Phone
+  com.atguigu.bridge.Phone o-- com.atguigu.bridge.Brand : brand
+  com.atguigu.bridge.UpRightPhone -up-|> com.atguigu.bridge.Phone
+  com.atguigu.bridge.Vivo .up.|> com.atguigu.bridge.Brand
+  com.atguigu.bridge.XiaoMi .up.|> com.atguigu.bridge.Brand
+  com.atguigu.builder.CommonHouse -up-|> com.atguigu.builder.AbstractHouse
+  com.atguigu.builder.improve.CommonHouse -up-|> com.atguigu.builder.improve.HouseBuilder
+  com.atguigu.builder.improve.HighBuilding -up-|> com.atguigu.builder.improve.HouseBuilder
+  com.atguigu.builder.improve.HouseBuilder o-- com.atguigu.builder.improve.House : house
+  com.atguigu.builder.improve.HouseDirector o-- com.atguigu.builder.improve.HouseBuilder : houseBuilder
+  com.atguigu.composite.College -up-|> com.atguigu.composite.OrganizationComponent
+  com.atguigu.composite.Department -up-|> com.atguigu.composite.OrganizationComponent
+  com.atguigu.composite.University -up-|> com.atguigu.composite.OrganizationComponent
+  com.atguigu.decorator.Chocolate -up-|> com.atguigu.decorator.Decorator
+  com.atguigu.decorator.Coffee -up-|> com.atguigu.decorator.Drink
+  com.atguigu.decorator.DeCaf -up-|> com.atguigu.decorator.Coffee
+  com.atguigu.decorator.Decorator -up-|> com.atguigu.decorator.Drink
+  com.atguigu.decorator.Decorator o-- com.atguigu.decorator.Drink : obj
+  com.atguigu.decorator.Espresso -up-|> com.atguigu.decorator.Coffee
+  com.atguigu.decorator.LongBlack -up-|> com.atguigu.decorator.Coffee
+  com.atguigu.decorator.Milk -up-|> com.atguigu.decorator.Decorator
+  com.atguigu.decorator.ShortBlack -up-|> com.atguigu.decorator.Coffee
+  com.atguigu.decorator.Soy -up-|> com.atguigu.decorator.Decorator
+  com.atguigu.facade.HomeTheaterFacade o-- com.atguigu.facade.DVDPlayer : dvdPlayer
+  com.atguigu.facade.HomeTheaterFacade o-- com.atguigu.facade.Popcorn : popcorn
+  com.atguigu.facade.HomeTheaterFacade o-- com.atguigu.facade.Projector : projector
+  com.atguigu.facade.HomeTheaterFacade o-- com.atguigu.facade.Screen : screen
+  com.atguigu.facade.HomeTheaterFacade o-- com.atguigu.facade.Stereo : stereo
+  com.atguigu.facade.HomeTheaterFacade o-- com.atguigu.facade.TheaterLight : theaterLight
+  com.atguigu.factory.absfactory.pizzastore.order.BJFactory .up.|> com.atguigu.factory.absfactory.pizzastore.order.AbsFactory
+  com.atguigu.factory.absfactory.pizzastore.order.LDFactory .up.|> com.atguigu.factory.absfactory.pizzastore.order.AbsFactory
+  com.atguigu.factory.absfactory.pizzastore.order.OrderPizza o-- com.atguigu.factory.absfactory.pizzastore.order.AbsFactory : absFactory
+  com.atguigu.factory.absfactory.pizzastore.pizza.BJCheesePizza -up-|> com.atguigu.factory.absfactory.pizzastore.pizza.Pizza
+  com.atguigu.factory.absfactory.pizzastore.pizza.BJPepperPizza -up-|> com.atguigu.factory.absfactory.pizzastore.pizza.Pizza
+  com.atguigu.factory.absfactory.pizzastore.pizza.LDCheesePizza -up-|> com.atguigu.factory.absfactory.pizzastore.pizza.Pizza
+  com.atguigu.factory.absfactory.pizzastore.pizza.LDPepperPizza -up-|> com.atguigu.factory.absfactory.pizzastore.pizza.Pizza
+  com.atguigu.factory.factorymethod.pizzastore.pizza.order.BJOrderPizza -up-|> com.atguigu.factory.factorymethod.pizzastore.pizza.order.OrderPizza
+  com.atguigu.factory.factorymethod.pizzastore.pizza.order.LDOrderPizza -up-|> com.atguigu.factory.factorymethod.pizzastore.pizza.order.OrderPizza
+  com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.BJCheesePizza -up-|> com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.Pizza
+  com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.BJPepperPizza -up-|> com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.Pizza
+  com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.LDCheesePizza -up-|> com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.Pizza
+  com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.LDPepperPizza -up-|> com.atguigu.factory.factorymethod.pizzastore.pizza.pizza.Pizza
+  com.atguigu.factory.simplefactory.pizzastore.order.OrderPizza o-- com.atguigu.factory.simplefactory.pizzastore.pizza.Pizza : pizza
+  com.atguigu.factory.simplefactory.pizzastore.order.OrderPizza o-- com.atguigu.factory.simplefactory.pizzastore.order.SimpleFactory : simpleFactory
+  com.atguigu.factory.simplefactory.pizzastore.pizza.CheesePizza -up-|> com.atguigu.factory.simplefactory.pizzastore.pizza.Pizza
+  com.atguigu.factory.simplefactory.pizzastore.pizza.GreekPizza -up-|> com.atguigu.factory.simplefactory.pizzastore.pizza.Pizza
+  com.atguigu.factory.simplefactory.pizzastore.pizza.PepperPizza -up-|> com.atguigu.factory.simplefactory.pizzastore.pizza.Pizza
+  com.atguigu.flyweight.ConcreteWebSite -up-|> com.atguigu.flyweight.WebSite
   com.atguigu.principle.composite.B -up-|> com.atguigu.principle.composite.A
   com.atguigu.principle.composite.improve_aggregation.B o-- com.atguigu.principle.composite.improve_aggregation.A : a
   com.atguigu.principle.composite.improve_composition.B o-- com.atguigu.principle.composite.improve_composition.A : a
@@ -596,9 +1799,54 @@ title __DESIGN_PATTERN's Class Diagram__\n
   com.atguigu.principle.segregation.improve.B .up.|> com.atguigu.principle.segregation.improve.Interface2
   com.atguigu.principle.segregation.improve.D .up.|> com.atguigu.principle.segregation.improve.Interface1
   com.atguigu.principle.segregation.improve.D .up.|> com.atguigu.principle.segregation.improve.Interface3
+  com.atguigu.prototype.deepclone.DeepCloneableTarget .up.|> java.io.Serializable
+  com.atguigu.prototype.deepclone.DeepCloneableTarget .up.|> java.lang.Cloneable
+  com.atguigu.prototype.deepclone.DeepProtoType .up.|> java.io.Serializable
+  com.atguigu.prototype.deepclone.DeepProtoType .up.|> java.lang.Cloneable
+  com.atguigu.prototype.deepclone.DeepProtoType o-- com.atguigu.prototype.deepclone.DeepCloneableTarget : deepCloneableTarget
+  com.atguigu.prototype.improve.Sheep .up.|> java.lang.Cloneable
+  com.atguigu.proxy.cglib.ProxyFactory .up.|> net.sf.cglib.proxy.MethodInterceptor
+  com.atguigu.proxy.dynamic.TeacherDao .up.|> com.atguigu.proxy.dynamic.ITeacherDao
+  com.atguigu.proxy.staticproxy.TeacherDao .up.|> com.atguigu.proxy.staticproxy.ITeacherDao
+  com.atguigu.proxy.staticproxy.TeacherDaoProxy .up.|> com.atguigu.proxy.staticproxy.ITeacherDao
+  com.atguigu.proxy.staticproxy.TeacherDaoProxy o-- com.atguigu.proxy.staticproxy.ITeacherDao : target
+  com.atguigu.responsibilitychain.Approver o-- com.atguigu.responsibilitychain.Approver : approver
+  com.atguigu.responsibilitychain.CollegeApprover -up-|> com.atguigu.responsibilitychain.Approver
+  com.atguigu.responsibilitychain.DepartmentApprover -up-|> com.atguigu.responsibilitychain.Approver
+  com.atguigu.responsibilitychain.SchoolMasterApprover -up-|> com.atguigu.responsibilitychain.Approver
+  com.atguigu.responsibilitychain.ViceSchoolMasterApprover -up-|> com.atguigu.responsibilitychain.Approver
+  com.atguigu.strategy.PekingDuck -up-|> com.atguigu.strategy.Duck
+  com.atguigu.strategy.ToyDuck -up-|> com.atguigu.strategy.Duck
+  com.atguigu.strategy.WildDuck -up-|> com.atguigu.strategy.Duck
+  com.atguigu.strategy.improve.BadFlyBehavior .up.|> com.atguigu.strategy.improve.FlyBehavior
+  com.atguigu.strategy.improve.Duck o-- com.atguigu.strategy.improve.FlyBehavior : flyBehavior
+  com.atguigu.strategy.improve.GoodFlyBehavior .up.|> com.atguigu.strategy.improve.FlyBehavior
+  com.atguigu.strategy.improve.NoFlyBehavior .up.|> com.atguigu.strategy.improve.FlyBehavior
+  com.atguigu.strategy.improve.PekingDuck -up-|> com.atguigu.strategy.improve.Duck
+  com.atguigu.strategy.improve.ToyDuck -up-|> com.atguigu.strategy.improve.Duck
+  com.atguigu.strategy.improve.WildDuck -up-|> com.atguigu.strategy.improve.Duck
+  com.atguigu.template.PeanutSoyaMilk -up-|> com.atguigu.template.SoyaMilk
+  com.atguigu.template.RedBeanSoyaMilk -up-|> com.atguigu.template.SoyaMilk
+  com.atguigu.uml.aggregation.Computer o-- com.atguigu.uml.aggregation.Moniter : moniter
+  com.atguigu.uml.aggregation.Computer o-- com.atguigu.uml.aggregation.Mouse : mouse
+  com.atguigu.uml.composition.Computer o-- com.atguigu.uml.composition.Moniter : moniter
+  com.atguigu.uml.composition.Computer o-- com.atguigu.uml.composition.Mouse : mouse
+  com.atguigu.uml.composition.Person o-- com.atguigu.uml.composition.IDCard : card
+  com.atguigu.uml.composition.Person o-- com.atguigu.uml.composition.Head : head
   com.atguigu.uml.dependence.PersonServiceBean o-- com.atguigu.uml.dependence.PersonDao : personDao
   com.atguigu.uml.generalization.PersonServiceBean -up-|> com.atguigu.uml.generalization.DaoSupport
   com.atguigu.uml.implementation.PersonServiceBean .up.|> com.atguigu.uml.implementation.PersonService
+  com.lkj.prototype.Circle -up-|> com.lkj.prototype.Shape
+  com.lkj.prototype.PrototypeDemo -up-|> javax.swing.JFrame
+  com.lkj.prototype.PrototypeDemo o-- com.lkj.prototype.Circle : circle
+  com.lkj.prototype.PrototypeDemo o-- com.lkj.prototype.Rectangle : rectangle
+  com.lkj.prototype.PrototypeDemo o-- com.lkj.prototype.Square : square
+  com.lkj.prototype.Rectangle -up-|> com.lkj.prototype.Shape
+  com.lkj.prototype.Shape .up.|> com.lkj.common.DrawSelf
+  com.lkj.prototype.Shape .up.|> java.lang.Cloneable
+  com.lkj.prototype.Square -up-|> com.lkj.prototype.Shape
+  com.other.builder.ComputerConcreteBuilder .up.|> com.other.builder.ComputerBuilder
+  com.other.builder.ComputerConcreteBuilder o-- com.other.builder.Computer : computer
 
 
 right footer
